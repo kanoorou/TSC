@@ -1,0 +1,62 @@
+.center{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.center-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.submit-button{
+    padding-bottom: 50px;
+    margin-top: 60px;
+}
+#submit{
+    display: block;
+    width: 40%;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.addon{
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+    background-color: #eee;
+}
+
+.form-item{
+    justify-content: center;
+}
+
+.item-content{
+    align-items: center;
+    width: 300px;
+}
+.item-input{
+    width:100%;
+    padding-top:7.5%;
+}
+.item-input input{
+    width:100%;
+}
+
+#contents-title{
+    border-bottom: solid 1px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.item-label{
+    width: 150px;
+    border-right: 1px solid;
+    padding-right: 25px;
+    margin-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

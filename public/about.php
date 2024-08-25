@@ -1,0 +1,50 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title lang="ja">TSCとは？  TSC 全合成グランプリ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/TSC/css/common.css" />
+    <link rel="shortcut icon" href="/TSC/assets/logo.png">
+  </head>
+  <body>
+    <header>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/TSC/template/header.php");?>
+    </header>
+    <div id="contents-wrapper" class="container-fluid text-start">
+      <div class="row">
+        <div class="col-12 p-2">
+        <h1 class="text-center">TSCとは？</h1>
+        <h5>全合成グランプリ(Total Synthesis Contest, TSC)は、主として有機化合物の合成経路(スキーム)の質を競うコンテストです。<h5>コンテストを通じて、有機化学の初学者から最先端の研究者に至るまでの誰もが、楽しく競い合いつつ有機化学への見識を深めることを目指しています。</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 p-2">
+        <h1 class="text-center">コンテストの仕組み</h1>
+        <h5>全合成グランプリ(TSC)は、主として有機化合物の合成経路(スキーム)の質を競うコンテストです。<h5>コンテストを通じて、有機化学の初学者から最先端の研究者に至るまでの誰もが、楽しく競い合いつつ有機化学への見識を深めることを目指しています。</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 px-3">
+        <h2 class="text-center">TSC Lite (LSC)</h2>
+        <h5>全合成グランプリ(TSC)は、主として有機化合物の合成経路(スキーム)の質を競うコンテストです。<h5>コンテストを通じて、有機化学の初学者から最先端の研究者に至るまでの誰もが、楽しく競い合いつつ有機化学への見識を深めることを目指しています。</p>
+        </div>
+        <div class="col-lg-7 px-4">
+        <h2 class="text-center">TSC Classic (TSC)</h2>
+        <h5>全合成グランプリ(TSC)は、主として有機化合物の合成経路(スキーム)の質を競うコンテストです。<h5>コンテストを通じて、有機化学の初学者から最先端の研究者に至るまでの誰もが、楽しく競い合いつつ有機化学への見識を深めることを目指しています。</p>
+        </div>
+        
+      </div>
+    </div>
+    <footer>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/TSC/template/footer.php");?>
+    </footer>
+    <script src="/TSC/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

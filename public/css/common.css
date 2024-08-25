@@ -1,0 +1,250 @@
+body{
+    font-family:  "Noto Sans JP", "Hiragino Sans", "Meiryo", sans-serif;
+}
+
+li {
+    list-style-type: none; 
+}
+a {
+    text-decoration: none;
+}
+img {
+    width:100%;
+}
+
+.flex {
+    display:flex;
+}
+
+
+body{
+    background-color: #eee;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+#header-icon-img{
+    height: 22.5vw;
+    width: 40vw;
+}
+#header-title{
+    font-size:2.2rem;
+    margin-bottom:0rem;
+    color:#002060;
+    width:100%;
+    font-family: "UD Digi Kyokasho NK-B";
+
+}
+@media (min-width: 576px) { 
+    #header-title{
+        font-size:3rem;
+        width:auto;
+        display:auto;
+    } 
+    #header-icon-img{
+    height: 94.5px;
+    width:168px;
+}
+}
+
+/*menu>>lang, login, mypage*/
+
+#header-lang a{
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: 800;
+    color: #606060;
+} 
+@media (min-width: 992px) { 
+    #header-lang{
+        padding-left:0;
+        padding-right:0;
+    } 
+    
+}
+#header-lang .current a{
+    color: #002060;
+    text-decoration: underline;
+    text-decoration-color: #002060;
+}
+#header-lang a:hover{
+    color: #002060;
+}
+
+
+
+#header-login a{
+    background-color: #002060;
+    color: aliceblue;
+    border:1px solid #fff ;
+}
+.large-button a{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    max-height: 100%;
+    border-radius: 4px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+#header-login a:hover{
+    background-color: powderblue;
+    color: #002060;
+}
+
+#header-mypage a{
+    background-color: aliceblue;
+    color: #002060;
+    border:1px solid #002060 ;
+}
+#header-mypage a:hover{
+    background-color: #002060;
+    color: aliceblue;
+}
+
+
+.header-bottom{
+    background-color: #002060;
+} 
+#participate{
+    color:aliceblue;
+    font-weight: bold;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    width: calc(100% - 57px);
+    font-size:18px;
+}
+#participate a{
+    width:100%;
+}
+@media (min-width: 768px) { 
+    #participate{
+        width:auto;
+        min-width: 18%;
+    }
+}
+
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+/*bottom>>main-menu*/
+
+
+#main-menu .nav-item{
+    width:100%;
+    border-top: 1px solid #eee;
+}
+@media (min-width: 768px) { 
+    #main-menu .nav-item{
+        width:20%;
+        border-left: 1px solid #eee;
+        border-top:none;
+    }
+    #main-menu .current{
+        border-top: 1px solid #002060;
+        margin-left:-1px;
+        margin-right:-1px;
+    }
+}
+#main-menu a:not(.dropdown-item){
+    color:aliceblue;
+    text-align: center;
+
+}
+#main-menu .current{
+    background-color: #eee;
+}
+#main-menu .current a{
+    pointer-events: none;
+    color:#002060;
+}
+#main-menu a:hover{
+    background-color: powderblue;
+    color: #002060;
+}
+
+
+#contents-wrapper{
+    background-color: #fff;
+}
+
+
+footer{
+    background-color: #002060;
+    background-image: url(../assets/pattern.png);
+    background-size: 10%;
+    
+}
+footer *{
+    color: #bdbdde;
+}
+/*footer>>main, bottom*/
+#footer-main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+    border-bottom: 2px solid #bdbdde;
+}
+#footer-main ul{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+#footer-main .primary-link{
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+@media (max-width: 767px) { 
+    #footer-main{
+        text-align:center;
+    }
+    
+#footer-main li:not(.primary-link){
+    display: none;
+}
+}
+#footer-main .x-icon{
+    width:20px;
+    height:20.5px;
+}
+#footer-main .discord-icon{
+    width:108.2px;
+    height:20.5px;
+}
+#footer-logo a{
+    display: table-cell;
+    vertical-align: middle;
+}
+#footer-icon-img{
+    height: 9vw;
+    width:16vw;
+}
+@media (min-width: 1200px) { 
+    #footer-icon-img{
+        height: 112.5px;
+        width:200px;
+    }
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: none;
+    border: 2px solid black;
+    background-color: #eee;
+    width:40px;
+    height:40px;
+    border-radius: 40px;
+    background-image: url('data:image/svg+xml,<svg data-name="1-Arrow Up" xmlns="http://www.w3.org/2000/svg" viewBox="-14 -14 60 60"><path d="m26.71 10.29-10-10a1 1 0 0 0-1.41 0l-10 10 1.41 1.41L15 3.41V32h2V3.41l8.29 8.29z"/></svg>');
+}
+
+
+
