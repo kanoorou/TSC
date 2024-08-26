@@ -1,0 +1,41 @@
+.hide-toggle label {
+    padding: 5px;
+    font-weight: bold;
+    border: solid 2px black;
+    cursor :pointer;
+}
+
+.hide-toggle input:checked ~ label::after{
+    content:"▲";
+}
+
+.hide-toggle label::after{
+    content:"▼";
+}
+
+
+/*ボタンホバー時*/
+.hide-toggle label:hover {
+    background: #efefef;
+}
+
+/*チェックは見えなくする*/
+.hide-toggle input[type="checkbox"] {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hide-toggle .hidden-by-checked {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hide-toggle input:checked ~ .hidden-by-checked {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}

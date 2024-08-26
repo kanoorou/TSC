@@ -1,0 +1,19 @@
+#learn-more-btn{
+        background-color: coral;
+        color: aliceblue;
+        border:1px solid #002060;
+        margin-bottom:0.5rem;
+}
+#learn-more-btn:hover{
+    background-color: powderblue;
+    color: #002060;
+}
+#participate-btn{
+    background-color: coral;
+    color: aliceblue;
+    border:1px solid #002060 ;
+}
+#participate-btn:hover{
+    background-color: powderblue;
+    color: #002060;
+}
