@@ -2,7 +2,6 @@
     
 </script>
 <template>
-    <div>
         <footer>
         <div class="container-fluid">
     <nav id="footer-main" class="">
@@ -61,6 +60,5 @@
 </div>
 
 </footer>
-    </div>
     
 </template>

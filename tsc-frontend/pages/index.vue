@@ -1,14 +1,10 @@
-<script setup>
-  import Header from '../components/header.vue';
-  import Footer from '../components/footer.vue';
+<script setup lang="ts">
   useHead({
     title:null
     }
   );
 </script>
 <template>
-  <div>
-    <Header path="/" />
     <main>
       <div id="contents-wrapper" class="container-lg text-start mx-auto my-5">
       <div class="row">
@@ -24,14 +20,12 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-6 col-lg-4"><h2 class="text-center">開催予定のコンテスト</h2></div>
+        <div class="col-6 col-lg-4"><h3 class="text-center">開催予定のコンテスト</h3></div>
         <div class="col-6 col-lg-4"><h2 class="text-center">開催済のコンテスト</h2></div>
         <div class="col-12 col-lg-4"><h2 class="text-center">お知らせ</h2></div>
       </div>
-    </div>
+      </div>
     </main>
-    <Footer />
-  </div>
 </template>
 <style>
 #learn-more-btn{

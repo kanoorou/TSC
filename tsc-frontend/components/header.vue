@@ -1,13 +1,17 @@
 <script setup>
-    const props=defineProps({path:String});
+    const route = useRoute();
+    // console.log('current path:', route.path)
     let isHome=false,isContest=false,isLb=false;
-    switch (props.path){
+    switch (route.path){
         case '/':
             isHome=true;
+            break;
         case '/contest/':
             isContest=true;
+            break;
         case '/leaderboard/':
             isLb=true;
+            break;
     }
 </script>
 <template>
